@@ -3,6 +3,9 @@
 // import normalize.scss from node_modules
 @import '~normalize.scss/normalize.scss';
 
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto');
+
 // abstracts
 @import 'abstracts/helpers';
 @import 'abstracts/mixins';
