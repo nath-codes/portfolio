@@ -8,10 +8,10 @@ import '../styles/main.scss';
 export default () => (
   <div>
     <Helmet>
-      <title>React Babel Webpack Boilerplate</title>
+      <title>nath.codes</title>
       <meta
         name="description"
-        content="A small, but perfectly formed boilerplate for React projects."
+        content=" The portfolio of web developer Nathan Tredgett."
       />
     </Helmet>
     <Header />
