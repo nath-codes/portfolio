@@ -5,4 +5,11 @@
   margin-top: 0;
   margin: 0 auto rem(30);
   text-transform: uppercase;
+
+  &--alt {
+    background: $black;
+    color: $white;
+    display: inline-block;
+    padding: 0 rem(30);
+  }
 }
