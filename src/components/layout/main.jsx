@@ -1,6 +1,8 @@
 import React from 'react';
-
+import About from '../sections/about';
 export default () => (
-  <div className="l-main l-container">Hello World</div>
+  <main className="l-main">
+    <About />
+  </main>
 );
 
