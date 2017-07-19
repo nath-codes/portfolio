@@ -1,3 +1,9 @@
 .l-section {
-  padding: 30px 0;
+  height: 100vh;
+  padding: percentage(90px/$max-width) 0;
+
+
+  &__inner {
+    flex: 0 1 50%;
+  }
 }
