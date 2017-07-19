@@ -2,4 +2,10 @@
   flex: 0 1 50%;
   font-size: rem(18);
   line-height: rem(30);
+
+  &--alt {
+    background: $black;
+    color: $white;
+    padding: rem(10) rem(30);
+  }
 }
