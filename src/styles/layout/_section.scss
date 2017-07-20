@@ -11,6 +11,9 @@
     color: $white;
   }
 
+  &--backend {
+    background: $black;
+  }
 
   &__inner {
     flex: 0 1 50%;
