@@ -1,0 +1,19 @@
+.social {
+  display: flex;
+  justify-content: center;
+
+  &__logo {
+    svg {
+      height: 25vh;
+    }
+
+    path {
+      fill: $white;
+      transition: fill .20s ease-in-out;
+
+      &:hover {
+        fill: $black;
+      }
+    }
+  }
+}

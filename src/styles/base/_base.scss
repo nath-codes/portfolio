@@ -8,7 +8,12 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  height:50vh;
-  width:100%;
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  height: auto;
+  width: 100%;
 }

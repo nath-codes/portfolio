@@ -6,8 +6,17 @@
     background-color: $teal;
   }
 
+  &--contact {
+    background-color: $red;
+    color: $white;
+  }
+
 
   &__inner {
     flex: 0 1 50%;
+
+    &--center {
+      text-align: center;
+    }
   }
 }
