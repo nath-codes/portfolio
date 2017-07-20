@@ -45,8 +45,12 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.(jpe?g|gif|png|svg)/,
+        test: /\.(jpe?g|gif|png)/,
         loader: 'file-loader',
+      },
+      {
+        test: /\.(svg)/,
+        loader: 'svg-inline-loader',
       },
     ],
   },
