@@ -1,6 +1,7 @@
 .l-section {
   height: 100vh;
   padding: percentage(90px/$max-width) 0;
+  position: relative;
 
   &--about {
     background-color: $teal;
