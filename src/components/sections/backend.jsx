@@ -4,7 +4,7 @@ export default class Backend extends Component {
   render() {
     return (
       <section className="l-section l-section--backend">
-        <div className="l-container">
+        <div className="l-container l-container--right">
           <div className="l-section__inner">
             <h2 className="heading heading--alt">Backend</h2>
             <div className="copy copy--alt">
