@@ -16,6 +16,10 @@
     background: $black;
   }
 
+  &--devops {
+    background: repeating-linear-gradient(45deg, $yellow, $yellow 75px, $grey 75px, $grey 150px);
+  }
+
   &__inner {
     flex: 0 1 50%;
 
