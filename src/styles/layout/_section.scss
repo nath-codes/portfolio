@@ -4,7 +4,7 @@
   position: relative;
 
   &--about {
-    background-color: $teal;
+    background: $yellow;
   }
 
   &--contact {
@@ -17,7 +17,7 @@
   }
 
   &--devops {
-    background: repeating-linear-gradient(45deg, $yellow, $yellow 75px, $grey 75px, $grey 150px);
+    background-color: $teal;
   }
 
   &__inner {
