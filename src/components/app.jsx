@@ -2,7 +2,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Header from './layout/header';
 import Main from './layout/main';
-import Footer from './layout/footer';
 import '../styles/main.scss';
 
 export default () => (
@@ -16,6 +15,5 @@ export default () => (
     </Helmet>
     <Header />
     <Main />
-    <Footer />
   </div>
 );
