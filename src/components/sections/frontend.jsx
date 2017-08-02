@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Carousel from '../carousel/carousel';
+import fakeProps from '../../data/frontend-carousel';
 
 export default class Frontend extends Component {
   render() {
@@ -15,7 +17,7 @@ export default class Frontend extends Component {
               </p>
             </div>
           </div>
-
+          <Carousel slides={fakeProps} delay="2000" />
         </div>
       </section>
     );
