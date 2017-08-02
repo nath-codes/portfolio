@@ -42,7 +42,7 @@ class Carousel extends Component {
 
 Carousel.propTypes = {
   delay: PropTypes.string.isRequired,
-  slides: PropTypes.object.isRequired,
+  slides: PropTypes.array.isRequired,
 };
 
 export default Carousel;
