@@ -17,7 +17,9 @@
   }
 
   &--devops {
-    background-color: $teal;
+    background: linear-gradient(180deg, $teal, $blue);
+    background-size: 400% 400%;
+    animation: backgroundPosition 10s ease infinite;
   }
 
   &__inner {
