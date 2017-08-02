@@ -6,6 +6,7 @@
   text-transform: uppercase;
 
   &--alt {
+    @include font-smoothing();
     background: $black;
     color: $white;
     display: inline-block;
