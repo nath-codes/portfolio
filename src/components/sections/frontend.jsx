@@ -33,7 +33,7 @@ export default class Frontend extends Component {
               </p>
             </div>
           </div>
-          <Carousel slides={slides} delay="2000" onTransition={this.handleTransition} />
+          <Carousel slides={slides} delay="2500" onTransition={this.handleTransition} />
         </div>
       </section>
     );
