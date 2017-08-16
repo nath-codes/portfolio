@@ -16,6 +16,25 @@
     background: $black;
   }
 
+  &--frontend {
+    transition: background-color $transitionTime;
+  }
+
+  &--react {
+    background-color: $react;
+  }
+
+  &--gulp {
+    background-color: $gulp;
+  }
+
+  &--webpack {
+    background-color: $webpack;
+  }
+
+  &--sass {
+    background-color: $sass;
+  }
   &--devops {
     background: linear-gradient(180deg, $teal, $blue);
     background-size: 400% 400%;
