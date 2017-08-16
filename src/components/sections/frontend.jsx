@@ -8,8 +8,8 @@ export default class Frontend extends Component {
       <section className="l-section">
         <div className="l-container">
           <div className="l-section__inner">
-            <h2 className="heading">Frontend</h2>
-            <div className="copy">
+            <h2 className="heading heading--alt">Frontend</h2>
+            <div className="copy copy--alt">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Labore odit quam enim consequatur deleniti animi sunt.
