@@ -8,7 +8,7 @@ class Carousel extends Component {
     super(props);
 
     this.state = {
-      currentSlide: 0,
+      currentIndex: 0,
     };
   }
 
@@ -19,16 +19,16 @@ class Carousel extends Component {
   }
 
   transition() {
-    const currentSlide = this.state.currentSlide;
     const totalSlides = this.props.slides.length;
+    const currentIndex = this.state.currentIndex;
+    const nextIndex = ((currentIndex + 1) === totalSlides) ? 0 : currentIndex + 1;
 
-    const nextSlide = ((currentSlide + 1) === totalSlides) ? 0 : currentSlide + 1;
-    this.setState({ currentSlide: nextSlide });
+    this.setState({ currentIndex: nextIndex });
   }
 
   render() {
     const slides = this.props.slides.map((slide, index) =>
-      <Slide isActive={index === this.state.currentSlide} src={slide} key={slide} />,
+      <Slide isActive={index === this.state.currentIndex} src={slide.src} key={slide.id} />,
     );
 
     return (
