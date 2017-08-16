@@ -17,7 +17,7 @@
   }
 
   &--frontend {
-    transition: background-color $transitionTime;
+    transition: background-color .4s ease-in-out;
   }
 
   &--react {
