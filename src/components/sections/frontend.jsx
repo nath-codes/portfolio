@@ -3,9 +3,25 @@ import Carousel from '../carousel/carousel';
 import slides from '../../data/frontend-carousel';
 
 export default class Frontend extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      backgroundClass: '',
+    }
+
+    this.handleTransition = this.handleTransition.bind(this);
+  }
+
+  handleTransition(backgroundClass) {
+    this.setState({ backgroundClass });
+  }
+
   render() {
+    const background = this.state.backgroundClass;
+
     return (
-      <section className="l-section">
+      <section className={`l-section l-section--frontend ${background ? `l-section--${background}` : ''}`}>
         <div className="l-container">
           <div className="l-section__inner">
             <h2 className="heading heading--alt">Frontend</h2>
@@ -17,7 +33,7 @@ export default class Frontend extends Component {
               </p>
             </div>
           </div>
-          <Carousel slides={slides} delay="2000"/>
+          <Carousel slides={slides} delay="2000" onTransition={this.handleTransition} />
         </div>
       </section>
     );

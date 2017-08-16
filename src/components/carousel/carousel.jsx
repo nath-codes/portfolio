@@ -22,7 +22,9 @@ class Carousel extends Component {
     const totalSlides = this.props.slides.length;
     const currentIndex = this.state.currentIndex;
     const nextIndex = ((currentIndex + 1) === totalSlides) ? 0 : currentIndex + 1;
+    const { id } = this.props.slides[nextIndex];
 
+    this.props.onTransition(id);
     this.setState({ currentIndex: nextIndex });
   }
 
@@ -37,12 +39,12 @@ class Carousel extends Component {
       </div>
     );
   }
-
 }
 
 Carousel.propTypes = {
   delay: PropTypes.string.isRequired,
   slides: PropTypes.array.isRequired,
+  onTransition: PropTypes.func.isRequired,
 };
 
 export default Carousel;
