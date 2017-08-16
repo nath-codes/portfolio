@@ -12,6 +12,11 @@
     padding: 0 rem(30);
   }
 
+  &--hero {
+    color: $white;
+    line-height: 91px;
+  }
+
   &--devops {
     position: relative;
     z-index: 2;

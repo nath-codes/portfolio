@@ -13,4 +13,10 @@
   &--right {
     justify-content: flex-end;
   }
+
+  &--hero {
+    align-items: center;
+    position: relative;
+    z-index: 3;
+  }
 }
