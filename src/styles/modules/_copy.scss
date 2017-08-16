@@ -13,4 +13,13 @@
   &--contact {
     margin-bottom: rem(80)
   }
+
+  &--devops {
+    position: relative;
+    z-index: 2;
+  }
+
+  &--frontend {
+    transition: background-color .4s linear;
+  }
 }
