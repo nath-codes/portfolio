@@ -13,9 +13,13 @@ $body-font: 'Roboto', sans-serif;
 // colors
 $black: #333;
 $blue: #82AAFF;
+$gulp: lighten(#d34a47, 30%);
 $grey: #999;
 $orange: #ff6600;
 $red: #cc3c3b;
 $teal: #79ffe0;
 $yellow:#ff0;
 $white: #fff;
+$react: lighten(#00d8ff, 30%);
+$sass: lighten(#8cc84b, 30%);
+$webpack: lighten(#1c78c0, 30%);
