@@ -1,0 +1,13 @@
+.overlay {
+  background: $black;
+  bottom: 0;
+  left: 0;
+  opacity: .4;
+  right: 0;
+  position: absolute;
+  top: 0;
+
+  &--hero {
+    z-index: 1;
+  }
+}
