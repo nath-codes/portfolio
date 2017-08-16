@@ -7,7 +7,7 @@ export default class Hero extends Component {
       <section className="l-section hero">
         <VideoBackground
           src="https://s3-eu-west-1.amazonaws.com/nath-codes/hero.webm"
-          autoplay
+          autoPlay
           loop
         />
         <div className="l-container l-container--hero l-container--left">
