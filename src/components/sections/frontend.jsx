@@ -7,8 +7,8 @@ export default class Frontend extends Component {
     super();
 
     this.state = {
-      backgroundClass: '',
-    }
+      backgroundClass: 'react',
+    };
 
     this.handleTransition = this.handleTransition.bind(this);
   }
@@ -21,7 +21,7 @@ export default class Frontend extends Component {
     const background = this.state.backgroundClass;
 
     return (
-      <section className={`l-section l-section--frontend ${background ? `l-section--${background}` : ''}`}>
+      <section className={`l-section l-section--frontend l-section--${background}`}>
         <div className="l-container">
           <div className="l-section__inner">
             <h2 className="heading heading--alt">Frontend</h2>
