@@ -6,12 +6,13 @@ import Frontend from '../sections/frontend';
 import Backend from '../sections/backend';
 import Contact from '../sections/contact';
 import DevOps from '../sections/devops';
+import projects from '../../data/projects';
 
 export default () => (
   <main className="l-main">
     <Hero />
     <About />
-    <Projects />
+    <Projects projects={projects} />
     <Frontend />
     <Backend />
     <DevOps />
