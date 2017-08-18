@@ -13,8 +13,3 @@
     -webkit-font-smoothing: subpixel-antialiased;
   }
 }
-
-@function rem($size) {
-  $rem-size: $size / 16;
-  @return #{$rem-size}rem;
-}
