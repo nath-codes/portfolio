@@ -1,0 +1,30 @@
+.project {
+  flex: 0 0 48%;
+  margin-bottom: 25px;
+
+  &__img {
+    display: block;
+  }
+
+  &__meta {
+    padding: 25px;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: $header-font;
+    margin-bottom: 5px;
+  }
+
+  &__tags {
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  &__tag {
+    color: $grey;
+    font-weight: 200;
+    list-style: none;
+  }
+}

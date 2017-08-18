@@ -4,7 +4,7 @@
 @import '~normalize.scss/normalize.scss';
 
 // fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto:200');
 
 // abstracts
 @import 'abstracts/animations';
@@ -29,8 +29,10 @@
 @import 'modules/link';
 @import 'modules/overlay';
 @import 'modules/particles';
+@import 'modules/project';
 @import 'modules/social';
 @import 'modules/video-background';
+@import 'modules/wrapper';
 
 // state
 @import 'state/state';

@@ -11,6 +11,10 @@
     background: $yellow;
   }
 
+  &--projects {
+    padding-bottom: percentage(75px/$max-width)
+  }
+
   &--contact {
     @extend %full-height;
     background-color: $red;
@@ -69,6 +73,10 @@
 
     &--hero {
       flex-basis: 75%;
+    }
+
+    &--projects {
+      flex-basis: 100%;
     }
   }
 }

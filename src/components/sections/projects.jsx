@@ -12,9 +12,9 @@ class Projects extends Component {
     const projects = this.getProjects();
 
     return (
-      <section className="l-section">
+      <section className="l-section l-section--projects">
         <div className="l-container">
-          <div className="l-section__inner">
+          <div className="l-section__inner l-section__inner--projects">
             <h2 className="heading">Projects</h2>
             <div className="wrapper--projects">
               {projects}

@@ -5,7 +5,7 @@ class Project extends Component {
 
   getTags() {
     const { tags } = this.props.project;
-    return tags.map(tag => <li key={tag}>{tag}</li>);
+    return tags.map(tag => <li className="project__tag" key={tag}>{tag}</li>);
   }
 
   render() {
@@ -13,15 +13,16 @@ class Project extends Component {
     const tags = this.getTags();
 
     return (
-      <a href={url} className="project" key={url}>
-        <img
-          src={img}
-          className="project__img"
-          alt={`Screenshot of ${title} website`}
-        />
+      <a href={url} className="project link" key={url}>
+        <div className="project__img">
+          <img
+            src={img}
+            alt={`Screenshot of ${title} website`}
+          />
+        </div>
         <div className="project__meta">
           <div className="project__title">{title}</div>
-          <ul className="projects__tags">{tags}</ul>
+          <ul className="project__tags">{tags}</ul>
         </div>
       </a>
     );
