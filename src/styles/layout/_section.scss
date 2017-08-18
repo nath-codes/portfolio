@@ -1,22 +1,29 @@
 .l-section {
-  height: 100vh;
   padding: percentage(90px/$max-width) 0;
   position: relative;
 
+  &--hero {
+    @extend %full-height;
+  }
+
   &--about {
+    @extend %full-height;
     background: $yellow;
   }
 
   &--contact {
+    @extend %full-height;
     background-color: $red;
     color: $white;
   }
 
   &--backend {
+    @extend %full-height;
     background: $black;
   }
 
   &--frontend {
+    @extend %full-height;
     transition: background-color .4s ease-in-out;
   }
 
@@ -37,6 +44,7 @@
   }
 
   &--devops {
+    @extend %full-height;
     background: linear-gradient(45deg, $opal, $blue);
 
     &:after {
