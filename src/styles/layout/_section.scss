@@ -49,19 +49,7 @@
 
   &--devops {
     @extend %full-height;
-    background: linear-gradient(45deg, $opal, $blue);
-
-    &:after {
-      background-image: url('https://s3-eu-west-1.amazonaws.com/cdn.nath.codes/src/img/hexagons-opal.svg');
-      bottom: 0;
-      content: '';
-      position: absolute;
-      left: 0;
-      opacity: .4;
-      right: 0;
-      top: 0;
-      z-index: 1;
-    }
+    background-image: url('https://s3-eu-west-1.amazonaws.com/cdn.nath.codes/src/img/hexagons-opal.svg'), linear-gradient(180deg, $opal, $blue);
   }
 
   &__inner {
