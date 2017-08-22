@@ -13,7 +13,7 @@ class Projects extends Component {
 
     return (
       <section className="l-section l-section--projects">
-        <div className="l-container">
+        <div className="l-container flex flex--column">
           <h2 className="heading heading--alt heading--projects">Projects</h2>
           <div className="wrapper--projects">
             {projects}

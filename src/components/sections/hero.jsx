@@ -10,7 +10,7 @@ export default class Hero extends Component {
           autoPlay
           loop
         />
-        <div className="l-container l-container--hero l-container--left">
+        <div className="l-container l-container--hero flex flex--column flex--centered">
           <div className="heading heading--hero">
             Hi, I&#39;m Nathan.<br />
             I&#39;m a web developer <br />

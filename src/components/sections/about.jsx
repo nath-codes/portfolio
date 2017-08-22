@@ -4,8 +4,8 @@ export default class About extends Component {
   render() {
     return (
       <section className="l-section l-section--about">
-        <div className="l-container">
-          <article className="article article--centered">
+        <div className="l-container flex">
+          <article className="article">
             <h2 className="heading heading--alt">About</h2>
             <div className="copy copy--alt">
               <p>

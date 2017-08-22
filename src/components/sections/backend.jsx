@@ -8,7 +8,7 @@ export default class Backend extends Component {
         <div className="particles">
           <Particles />
         </div>
-        <div className="l-container l-container--right">
+        <div className="l-container flex flex--right">
           <article className="article">
             <h2 className="heading heading--alt">Backend</h2>
             <div className="copy copy--alt">
