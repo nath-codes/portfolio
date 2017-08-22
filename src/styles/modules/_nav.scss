@@ -9,6 +9,11 @@
 
   &__icon {
     cursor: pointer;
+    transition: all .25s;
     width: rem(40);
+
+    &.is-active {
+      transform: rotate(90deg);
+    }
   }
 }
