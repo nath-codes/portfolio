@@ -12,4 +12,12 @@
   &--right {
     justify-content: flex-end;
   }
+
+  &--between {
+    justify-content: space-between;
+  }
+
+  &--wrap {
+    flex-wrap: wrap;
+  }
 }
