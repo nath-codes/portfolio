@@ -2,4 +2,16 @@
   cursor: pointer;
   display: inline-block;
   font-family: $header-font;
+
+  &--project {
+    border: solid 2px $white;
+    border-radius: 2px;
+    color: $white;
+    font-size: 18px;
+    opacity: 0;
+    padding: 14px 31px;
+    transition: opacity .20s;
+    display: inline-block;
+    z-index: 3;
+  }
 }
