@@ -15,7 +15,7 @@ class Projects extends Component {
       <section className="l-section l-section--projects">
         <div className="l-container flex flex--column">
           <h2 className="heading heading--alt heading--projects">Projects</h2>
-          <div className="wrapper--projects">
+          <div className="wrapper--projects flex flex--between flex--wrap">
             {projects}
           </div>
         </div>
