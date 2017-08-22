@@ -5,7 +5,7 @@ const Slide = (props) => {
   const activeClass = (props.isActive) ? 'carousel__slide--is-active' : '';
   return (
     <div className={`carousel__slide ${activeClass} flex flex--centered`}>
-      <img src={props.src} alt="" />
+      <img src={props.src} className="carousel__img" alt="" />
     </div>
   );
 };
