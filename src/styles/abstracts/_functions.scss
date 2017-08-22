@@ -3,6 +3,6 @@
   @return #{$rem-size}rem;
 }
 
-@function column($width, $gutter: 25px) {
+@function column($width, $gutter: 50px) {
   @return calc(#{$width} * 100% - (1 - #{$width})* #{$gutter});
 }
