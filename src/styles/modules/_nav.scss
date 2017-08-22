@@ -2,6 +2,11 @@
   &__item {
     color: $white;
 
+    &--l {
+      margin-right: rem(20);
+    }
+  }
+
   &__icon {
     cursor: pointer;
     width: rem(40);
