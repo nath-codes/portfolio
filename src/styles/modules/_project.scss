@@ -3,6 +3,10 @@
   margin-bottom: 50px;
   transition: all .25s ease-in-out;
 
+  &:nth-child(odd) {
+    margin-top: -177px;
+  }
+
   &:hover {
     .overlay--project {
       opacity: .5;
