@@ -4,7 +4,7 @@ import VideoBackground from '../video-background';
 export default class Hero extends Component {
   render() {
     return (
-      <section className="l-section hero">
+      <section className="l-section  l-section--hero hero">
         <VideoBackground
           src="https://s3-eu-west-1.amazonaws.com/nath-codes/hero.webm"
           autoPlay
