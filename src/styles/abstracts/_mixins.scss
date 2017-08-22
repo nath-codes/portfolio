@@ -13,3 +13,25 @@
     -webkit-font-smoothing: subpixel-antialiased;
   }
 }
+
+@mixin nice-underline ($color, $hover-color) {
+  position: relative;
+  text-decoration: none;
+
+  &::before {
+    background: $color;
+    bottom: -2px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(.4, 0, .2, 1);
+    width: 100%;
+  }
+
+  &:hover::before {
+    background: $hover-color;
+    transform: scaleX(1);
+  }
+}
