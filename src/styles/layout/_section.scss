@@ -4,6 +4,7 @@
 
   &--hero {
     @extend %full-height;
+    padding-top: 0;
   }
 
   &--about {
