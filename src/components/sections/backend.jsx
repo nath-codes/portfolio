@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 export default class Backend extends Component {
   render() {
     return (
-      <section className="l-section l-section--backend">
+      <section id="backend" className="l-section l-section--backend">
         <div className="particles">
           <Particles />
         </div>

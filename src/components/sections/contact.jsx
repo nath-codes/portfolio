@@ -4,7 +4,7 @@ import Social from '../social';
 export default class Contact extends Component {
   render() {
     return (
-      <section className="l-section l-section--contact">
+      <section id="contact" className="l-section l-section--contact">
         <div className="l-container flex flex--centered">
           <article className="article article--centered flex flex--column">
             <h2 className="heading">Contact</h2>

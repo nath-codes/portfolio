@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class DevOps extends Component {
   render() {
     return (
-      <section className="l-section l-section--devops">
+      <section id="devops" className="l-section l-section--devops">
         <div className="l-container flex">
           <article className="article">
             <h2 className="heading heading--alt heading--devops">Dev Ops</h2>

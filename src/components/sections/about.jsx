@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     return (
-      <section className="l-section l-section--about">
+      <section id="about" className="l-section l-section--about">
         <div className="l-container flex">
           <article className="article">
             <h2 className="heading heading--alt">About</h2>

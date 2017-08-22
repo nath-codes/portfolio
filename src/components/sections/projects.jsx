@@ -12,7 +12,7 @@ class Projects extends Component {
     const projects = this.getProjects();
 
     return (
-      <section className="l-section l-section--projects">
+      <section id="projects" className="l-section l-section--projects">
         <div className="l-container flex flex--column">
           <h2 className="heading heading--alt heading--projects">Projects</h2>
           <div className="wrapper--projects flex flex--between flex--wrap">

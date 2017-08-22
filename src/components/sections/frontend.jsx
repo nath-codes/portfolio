@@ -21,7 +21,7 @@ export default class Frontend extends Component {
     const background = this.state.backgroundClass;
 
     return (
-      <section className={`l-section l-section--frontend l-section--${background}`}>
+      <section id="frontend" className={`l-section l-section--frontend l-section--${background}`}>
         <div className="l-container flex flex--between">
           <article className="article">
             <h2 className="heading heading--alt">Frontend</h2>
