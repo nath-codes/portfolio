@@ -15,6 +15,7 @@ class Project extends Component {
     return (
       <a href={url} className="project link" key={url}>
         <div className="project__img">
+          <div className="overlay overlay--project" />
           <img
             src={img}
             alt={`Screenshot of ${title} website`}
