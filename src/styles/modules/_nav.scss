@@ -1,5 +1,9 @@
 .nav {
   &__item {
     color: $white;
+
+  &__icon {
+    cursor: pointer;
+    width: rem(40);
   }
 }
