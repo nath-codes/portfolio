@@ -52,20 +52,4 @@
     @extend %full-height;
     background-image: url('https://s3-eu-west-1.amazonaws.com/cdn.nath.codes/src/img/hexagons-opal.svg'), linear-gradient(180deg, $opal, $blue);
   }
-
-  &__inner {
-    flex: 0 1 50%;
-
-    &--center {
-      text-align: center;
-    }
-
-    &--hero {
-      flex-basis: 75%;
-    }
-
-    &--projects {
-      flex-basis: 100%;
-    }
-  }
 }

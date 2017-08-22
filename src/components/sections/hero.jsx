@@ -11,12 +11,10 @@ export default class Hero extends Component {
           loop
         />
         <div className="l-container l-container--hero l-container--left">
-          <div className="l-section__inner l-section__inner--hero">
-            <div className="heading heading--hero" style={{color: 'white'}}>
-              Hi, I&#39;m Nathan.<br />
-              I&#39;m a web developer <br />
-              from Bristol.
-            </div>
+          <div className="heading heading--hero">
+            Hi, I&#39;m Nathan.<br />
+            I&#39;m a web developer <br />
+            from Bristol.
           </div>
         </div>
       </section>

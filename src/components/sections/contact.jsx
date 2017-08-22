@@ -6,7 +6,7 @@ export default class Contact extends Component {
     return (
       <section className="l-section l-section--contact">
         <div className="l-container l-container--center">
-          <div className="l-section__inner l-section__inner--center">
+          <article className="article article--centered">
             <h2 className="heading">Contact</h2>
             <div className="copy copy--contact">
               <p>
@@ -20,7 +20,7 @@ export default class Contact extends Component {
               </p>
             </div>
             <Social />
-          </div>
+          </article>
         </div>
       </section>
     );

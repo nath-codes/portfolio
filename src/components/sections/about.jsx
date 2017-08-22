@@ -5,7 +5,7 @@ export default class About extends Component {
     return (
       <section className="l-section l-section--about">
         <div className="l-container">
-          <div className="l-section__inner">
+          <article className="article article--centered">
             <h2 className="heading heading--alt">About</h2>
             <div className="copy copy--alt">
               <p>
@@ -14,8 +14,7 @@ export default class About extends Component {
                 Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
               </p>
             </div>
-          </div>
-
+          </article>
         </div>
       </section>
     );

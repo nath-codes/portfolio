@@ -5,7 +5,7 @@ export default class DevOps extends Component {
     return (
       <section className="l-section l-section--devops">
         <div className="l-container">
-          <div className="l-section__inner">
+          <article className="article">
             <h2 className="heading heading--alt heading--devops">Dev Ops</h2>
             <div className="copy copy--alt copy--devops">
               <p>
@@ -14,7 +14,7 @@ export default class DevOps extends Component {
                 Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
     );

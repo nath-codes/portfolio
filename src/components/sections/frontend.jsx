@@ -23,7 +23,7 @@ export default class Frontend extends Component {
     return (
       <section className={`l-section l-section--frontend l-section--${background}`}>
         <div className="l-container">
-          <div className="l-section__inner">
+          <article className="article">
             <h2 className="heading heading--alt">Frontend</h2>
             <div className="copy copy--alt">
               <p>
@@ -32,7 +32,7 @@ export default class Frontend extends Component {
                 Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
               </p>
             </div>
-          </div>
+          </article>
           <Carousel slides={slides} delay="2500" onTransition={this.handleTransition} />
         </div>
       </section>

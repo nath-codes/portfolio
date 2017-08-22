@@ -9,7 +9,7 @@ export default class Backend extends Component {
           <Particles />
         </div>
         <div className="l-container l-container--right">
-          <div className="l-section__inner">
+          <article className="article">
             <h2 className="heading heading--alt">Backend</h2>
             <div className="copy copy--alt">
               <p>
@@ -18,7 +18,7 @@ export default class Backend extends Component {
                 Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
     );

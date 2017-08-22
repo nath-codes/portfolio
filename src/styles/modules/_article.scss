@@ -1,0 +1,10 @@
+.article {
+  flex: 0 0 column('1/2');
+
+  &--centered {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
