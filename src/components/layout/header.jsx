@@ -4,6 +4,8 @@ import nav from '../../data/nav';
 
 export default () => (
   <header className="l-header">
-    <Nav items={nav} />
+    <div className="l-container">
+      <Nav items={nav} />
+    </div>
   </header>
 );
