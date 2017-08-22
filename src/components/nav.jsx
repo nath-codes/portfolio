@@ -16,15 +16,17 @@ class Nav extends Component {
   }
 
   render() {
+    const isActive = this.props.active ? 'is-active' : '';
     const items = this.getItems();
-    return (
 
-      <nav className="nav">{items}</nav>
+    return (
+      <nav className={`nav ${isActive}`}>{items}</nav>
     );
   }
 }
 
 Nav.propTypes = {
+  active: PropTypes.bool.isRequired,
   items: PropTypes.array.isRequired,
   itemClass: PropTypes.string,
 };

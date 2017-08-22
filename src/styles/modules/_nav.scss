@@ -1,4 +1,13 @@
 .nav {
+  opacity: 0;
+  transition: opacity .25s;
+  visibility: hidden;
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+
   &__item {
     color: $white;
 
@@ -6,6 +15,7 @@
       margin-right: rem(20);
     }
   }
+
 
   &__icon {
     cursor: pointer;

@@ -24,7 +24,7 @@ class Header extends Component {
     return (
       <header className="l-header">
         <div className="l-container l-container--nav flex flex--right">
-          <Nav items={nav} itemClass="nav__item--l" />
+          <Nav items={nav} itemClass="nav__item--l" active={this.state.navToggled} />
           <div
             className={`nav__icon ${isToggled}`}
             onClick={this.handleNavToggle}
