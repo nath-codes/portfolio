@@ -7,6 +7,7 @@ class Nav extends Component {
     return this.props.items.map(item => (
       <a
         href={item.href}
+        key={item.title}
         className={`link nav__item ${this.props.itemClass}`}
       >
         {item.title}
