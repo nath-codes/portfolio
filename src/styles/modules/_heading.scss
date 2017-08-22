@@ -1,6 +1,7 @@
 .heading {
   font-family: $header-font;
   font-size: 74px;
+  display: inline-block;
   letter-spacing: 1px;
   margin: 0 auto rem(30);
 
@@ -8,7 +9,6 @@
     @include font-smoothing();
     background: $black;
     color: $white;
-    display: inline-block;
     padding: 0 rem(30);
   }
 
