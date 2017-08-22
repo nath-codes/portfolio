@@ -3,7 +3,6 @@
   margin-bottom: 50px;
   transition: all .25s ease-in-out;
 
-  &__img {
   &:hover {
     .overlay--project {
       opacity: .5;
@@ -11,8 +10,16 @@
     .button--project {
       opacity: 1;
     }
+  }
 
+  &__hero {
     display: block;
+    position: relative;
+  }
+
+
+  &__img {
+    vertical-align: bottom;
   }
 
   &__meta {

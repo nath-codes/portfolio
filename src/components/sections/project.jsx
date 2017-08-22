@@ -14,13 +14,14 @@ class Project extends Component {
 
     return (
       <a href={url} className="project link" key={url}>
-        <div className="project__img">
+        <div className="project__hero">
           <div className="wrapper wrapper--project-button">
             <div className="button button--project">Visit Site</div>
           </div>
           <div className="overlay overlay--project" />
           <img
             src={img}
+            className="project__img"
             alt={`Screenshot of ${title} website`}
           />
         </div>
