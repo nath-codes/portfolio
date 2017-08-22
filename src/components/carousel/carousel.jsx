@@ -34,7 +34,7 @@ class Carousel extends Component {
     );
 
     return (
-      <div className="carousel">
+      <div className="carousel flex">
         {slides}
       </div>
     );

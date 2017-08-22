@@ -1,6 +1,5 @@
 .carousel {
-    display: flex;
-    flex: 0 1 50%;
+    flex: 0 0 column('1/2');
     position: relative;
 
     &__slide {
