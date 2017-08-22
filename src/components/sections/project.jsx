@@ -13,7 +13,7 @@ class Project extends Component {
     const tags = this.getTags();
 
     return (
-      <a href={url} className="project link" key={url}>
+      <a href={url} className="project" key={url}>
         <div className="project__hero">
           <div className="wrapper wrapper--project-button flex flex--column flex--centered">
             <div className="button button--project">Visit Site</div>
