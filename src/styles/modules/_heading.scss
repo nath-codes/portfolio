@@ -3,7 +3,7 @@
   font-size: 74px;
   display: inline-block;
   letter-spacing: 1px;
-  margin: 0 auto rem(30);
+  margin: 0 0 rem(30);
 
   &--alt {
     @include font-smoothing();
