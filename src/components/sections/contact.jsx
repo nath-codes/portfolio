@@ -14,11 +14,8 @@ export default class Contact extends Component {
                 Labore odit quam enim consequatur deleniti animi sunt.
                 Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
               </p>
-
-              <p>
-                <a href="mailto:hello@nath.codes" className="link link--contact">hello@nath.codes</a>
-              </p>
             </div>
+            <a href="mailto:hello@nath.codes" className="link link--contact">hello@nath.codes</a>
             <Social />
           </article>
         </div>
