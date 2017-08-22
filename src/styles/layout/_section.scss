@@ -20,6 +20,7 @@
     @extend %full-height;
     background-color: $red;
     color: $white;
+    padding-bottom: 0;
   }
 
   &--backend {
