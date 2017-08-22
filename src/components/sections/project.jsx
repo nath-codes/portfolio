@@ -15,7 +15,7 @@ class Project extends Component {
     return (
       <a href={url} className="project link" key={url}>
         <div className="project__hero">
-          <div className="wrapper wrapper--project-button">
+          <div className="wrapper wrapper--project-button flex flex--column flex--centered">
             <div className="button button--project">Visit Site</div>
           </div>
           <div className="overlay overlay--project" />
