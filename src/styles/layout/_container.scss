@@ -10,6 +10,14 @@
     z-index: 3;
   }
 
+  &--frontend {
+    flex-direction: column;
+
+    @include media($medium) {
+      flex-direction: row;
+    }
+  }
+
   &--nav {
     align-items: center;
   }
