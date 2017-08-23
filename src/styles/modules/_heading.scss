@@ -1,14 +1,14 @@
 .heading {
   font-family: $header-font;
   font-size: 36px;
+  display: inline-block;
   letter-spacing: 1px;
   margin: 0 0 rem(30);
   text-align: center;
 
   @include media($medium) {
-    font-size: 74px;
-    display: inline-block;
     text-align: left;
+    font-size: 74px;
   }
 
   &--alt {
@@ -29,10 +29,7 @@
   }
 
   &--projects {
+    align-self: center;
     margin-bottom: rem(50);
-
-    @include media($medium) {
-      align-self: center;
-    }
   }
 }
