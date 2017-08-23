@@ -7,10 +7,10 @@ import '../styles/main.scss';
 export default () => (
   <div>
     <Helmet>
-      <title>nath.codes</title>
+      <title>Nath.codes | Portfolio</title>
       <meta
         name="description"
-        content=" The portfolio of web developer Nathan Tredgett."
+        content="The portfolio of Bristol web developer Nathan Tredgett."
       />
     </Helmet>
     <Header />
