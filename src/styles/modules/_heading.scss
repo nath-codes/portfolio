@@ -1,9 +1,15 @@
 .heading {
   font-family: $header-font;
-  font-size: 74px;
-  display: inline-block;
+  font-size: 36px;
   letter-spacing: 1px;
   margin: 0 0 rem(30);
+  text-align: center;
+
+  @include media($medium) {
+    font-size: 74px;
+    display: inline-block;
+    text-align: left;
+  }
 
   &--alt {
     @include font-smoothing();
@@ -19,7 +25,10 @@
   }
 
   &--projects {
-    align-self: center;
     margin-bottom: rem(50);
+
+    @include media($medium) {
+      align-self: center;
+    }
   }
 }
