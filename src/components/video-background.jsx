@@ -9,6 +9,7 @@ const Video = props => (
       src={props.src}
       autoPlay={props.autoPlay}
       loop={props.loop}
+      ref={node => node && node.setAttribute('playsinline', '')}
     />
   </div>
 );
