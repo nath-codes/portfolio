@@ -8,9 +8,15 @@ class Project extends Component {
     return tags.map(tag => <li className="project__tag" key={tag}>{tag}</li>);
   }
 
+  getImageSrcSet() {
+    const { srcset } = this.props.project;
+    return srcset.map(src => `${CDN_IMG}/${src.img} ${src.width}w`);
+  }
+
   render() {
-    const { title, img, url } = this.props.project;
+    const { title, url, img } = this.props.project;
     const tags = this.getTags();
+    const srcset = this.getImageSrcSet();
 
     return (
       <a href={url} className="project" key={url}>
@@ -20,7 +26,8 @@ class Project extends Component {
           </div>
           <div className="overlay overlay--project" />
           <img
-            src={img}
+            src={`${CDN_IMG}/${img}`}
+            srcSet={srcset}
             className="project__img"
             alt={`Screenshot of ${title} website`}
           />
