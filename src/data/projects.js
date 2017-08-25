@@ -6,7 +6,7 @@ const projects = [
       { img: 'gdsepic@0,75x.jpg', width: 605 },
       { img: 'gdsepic@2x.jpg', width: 1210 },
     ],
-    title: 'gdsepic.com',
+    title: 'GDS Epic',
     url: 'http://gdsepic.com',
   },
   {
@@ -16,7 +16,7 @@ const projects = [
       { img: 'gdssummits@0,75x.jpg', width: 605 },
       { img: 'gdssummits@2x.jpg', width: 1210 },
     ],
-    title: 'gdsummits.com',
+    title: 'GDS Summits',
     url: 'http://gdsummits.com',
   },
   {
@@ -26,7 +26,7 @@ const projects = [
       { img: 'gdsgroup@0,75x.jpg', width: 605 },
       { img: 'gdsgroup@2x.jpg', width: 1210 },
     ],
-    title: 'gdsgroup.com',
+    title: 'GDS Group',
     url: 'http://gdsgroup.com',
   },
   {
@@ -46,7 +46,7 @@ const projects = [
       { img: 'getfreekit@0,75x.jpg', width: 605 },
       { img: 'getfreekit@2x.jpg', width: 1210 },
     ],
-    title: 'getfreekit.co.uk',
+    title: 'Get Free Kit',
     url: 'http://getfreekit.co.uk',
   },
   {
@@ -56,9 +56,10 @@ const projects = [
       { img: 'bvexplained@0,75x.jpg', width: 605 },
       { img: 'bvexplained@2x.jpg', width: 1210 },
     ],
-    title: 'bvexplained.co.uk',
+    title: 'BV Explained',
     url: 'http://bvexplained.co.uk',
   },
+
 ];
 
 export default projects;
