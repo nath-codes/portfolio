@@ -3,11 +3,6 @@ import PropTypes from 'prop-types';
 
 class Project extends Component {
 
-  getTags() {
-    const { tags } = this.props.project;
-    return tags.map(tag => <li className="project__tag" key={tag}>{tag}</li>);
-  }
-
   getImageSrcSet() {
     const { srcset } = this.props.project;
     return srcset.map(src => `${CDN_IMG}/${src.img} ${src.width}w`);
@@ -15,7 +10,6 @@ class Project extends Component {
 
   render() {
     const { title, url, img } = this.props.project;
-    const tags = this.getTags();
     const srcset = this.getImageSrcSet();
 
     return (
@@ -34,7 +28,6 @@ class Project extends Component {
         </div>
         <div className="project__meta">
           <div className="project__title">{title}</div>
-          <ul className="project__tags">{tags}</ul>
         </div>
       </a>
     );

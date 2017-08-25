@@ -36,16 +36,4 @@
     font-family: $header-font;
     margin-bottom: 5px;
   }
-
-  &__tags {
-    -webkit-padding-start: 0;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-  }
-
-  &__tag {
-    color: $grey;
-    font-weight: 200;
-    list-style: none;
-  }
 }

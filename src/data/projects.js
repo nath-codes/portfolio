@@ -8,7 +8,6 @@ const projects = [
     ],
     title: 'gdsepic.com',
     url: 'http://gdsepic.com',
-    tags: ['react, redux, wordpress rest api'],
   },
   {
     img: 'gdssummits.jpg',
@@ -19,7 +18,6 @@ const projects = [
     ],
     title: 'gdsummits.com',
     url: 'http://gdsummits.com',
-    tags: ['marionette, wordpress rest api'],
   },
   {
     img: 'gdsgroup.jpg',
@@ -30,7 +28,6 @@ const projects = [
     ],
     title: 'gdsgroup.com',
     url: 'http://gdsgroup.com',
-    tags: ['backbone, wordpress rest api'],
   },
   {
     img: 'getfreekit.jpg',
@@ -41,7 +38,6 @@ const projects = [
     ],
     title: 'getfreekit.co.uk',
     url: 'http://getfreekit.co.uk',
-    tags: ['wordpress'],
   },
   {
     img: 'bvexplained.jpg',
@@ -52,7 +48,6 @@ const projects = [
     ],
     title: 'bvexplained.co.uk',
     url: 'http://bvexplained.co.uk',
-    tags: ['react'],
   },
   {
     img: 'kymatik.jpg',
@@ -63,7 +58,6 @@ const projects = [
     ],
     title: 'kymatik.co.uk',
     url: 'http://kymatik.co.uk',
-    tags: ['wordpress'],
   },
 ];
 
