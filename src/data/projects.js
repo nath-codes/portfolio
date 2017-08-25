@@ -30,6 +30,16 @@ const projects = [
     url: 'http://gdsgroup.com',
   },
   {
+    img: 'meettheboss.jpg',
+    srcset: [
+      { img: 'meettheboss.jpg', width: 454 },
+      { img: 'meettheboss@0,75x.jpg', width: 605 },
+      { img: 'meettheboss@2x.jpg', width: 1210 },
+    ],
+    title: 'Meet the Boss',
+    url: 'http://meettheboss.tv',
+  },
+  {
     img: 'getfreekit.jpg',
     srcset: [
       { img: 'getfreekit.jpg', width: 454 },
@@ -48,16 +58,6 @@ const projects = [
     ],
     title: 'bvexplained.co.uk',
     url: 'http://bvexplained.co.uk',
-  },
-  {
-    img: 'kymatik.jpg',
-    srcset: [
-      { img: 'kymatik.jpg', width: 454 },
-      { img: 'kymatik@0,75x.jpg', width: 605 },
-      { img: 'kymatik@2x.jpg', width: 1210 },
-    ],
-    title: 'kymatik.co.uk',
-    url: 'http://kymatik.co.uk',
   },
 ];
 
