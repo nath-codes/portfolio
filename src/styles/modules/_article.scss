@@ -1,5 +1,5 @@
 .article {
-  @include media($large) {
+  @include media($medium) {
     flex: 0 0 column('1/2');
   }
 
