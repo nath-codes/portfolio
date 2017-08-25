@@ -27,6 +27,7 @@ class Project extends Component {
             srcSet={srcset}
             className="project__img"
             alt={`Screenshot of ${title} website`}
+            sizes="(min-width: 768px) 50vw, 100vw"
           />
         </div>
 
