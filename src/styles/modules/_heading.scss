@@ -28,6 +28,14 @@
     }
   }
 
+  &--backend {
+    align-self: flex-end;
+
+    @include media($medium) {
+      align-self: flex-start;
+    }
+  }
+
   &--projects {
     align-self: flex-end;
   }
