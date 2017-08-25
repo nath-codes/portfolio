@@ -14,6 +14,9 @@ class Project extends Component {
 
     return (
       <a href={url} className="project" key={url}>
+        <div className="project__meta">
+          <div className="project__title">{title}</div>
+        </div>
         <div className="project__hero">
           <div className="wrapper wrapper--project-button flex flex--column flex--centered">
             <div className="button button--project">Visit Site</div>
@@ -26,9 +29,7 @@ class Project extends Component {
             alt={`Screenshot of ${title} website`}
           />
         </div>
-        <div className="project__meta">
-          <div className="project__title">{title}</div>
-        </div>
+
       </a>
     );
   }

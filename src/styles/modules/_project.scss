@@ -1,5 +1,6 @@
 .project {
   margin-bottom: 50px;
+  position: relative;
   transition: all .25s ease-in-out;
 
   @include media($medium) {
@@ -8,7 +9,7 @@
 
   &:hover {
     .overlay--project {
-      opacity: .5;
+      opacity: .8;
     }
     .button--project {
       opacity: 1;
@@ -26,14 +27,26 @@
   }
 
   &__meta {
-    background: $white;
-    padding: 25px;
-    text-align: center;
+    background: $black;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+    @include media($medium) {
+      padding: 20px;
+    }
   }
 
   &__title {
-    color: $black;
+    color: $white;
     font-family: $header-font;
-    margin-bottom: 5px;
+    font-size: rem(18);
+    line-height: 1;
+
+    @include media($medium) {
+      font-size: rem(24);
+    }
   }
 }
