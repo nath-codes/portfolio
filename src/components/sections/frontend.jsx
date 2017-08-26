@@ -25,7 +25,7 @@ export default class Frontend extends Component {
         <div className="l-container l-container--frontend flex flex--between">
           <article className="article">
             <h2 className="heading heading--alt">Frontend</h2>
-            <div className="copy copy--alt">
+            <div className="copy copy--alt copy--frontend">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Labore odit quam enim consequatur deleniti animi sunt.
