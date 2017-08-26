@@ -27,10 +27,15 @@ export default class Frontend extends Component {
             <h2 className="heading heading--alt">Frontend</h2>
             <div className="copy copy--alt copy--frontend">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Labore odit quam enim consequatur deleniti animi sunt.
-                Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
+                My current frontend framework of choice is React,
+                but I cut my teeth with vanilla javascript and frameworks,
+                such as Backbone and Marionette.
               </p>
+              <p>
+                Styling is handled via SCSS, made scaleable with SCMACCS and BEM architecture.
+                My current build tool is Webpack, but before that it was Gulp and Grunt.
+              </p>
+
             </div>
           </article>
           <Carousel slides={slides} delay="2500" onTransition={this.handleTransition} />
