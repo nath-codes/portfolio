@@ -18,8 +18,8 @@
     z-index: 2;
   }
 
-  &--frontend {
-    transition: background-color .4s linear;
+  &--frontend,
+  &--about {
     margin-bottom: rem(40);
   }
 }

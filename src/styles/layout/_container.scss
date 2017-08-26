@@ -10,7 +10,8 @@
     z-index: 3;
   }
 
-  &--frontend {
+  &--frontend,
+  &--about {
     flex-direction: column;
 
     @include media($medium) {

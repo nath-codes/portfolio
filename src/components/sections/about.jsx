@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import crossSvg from '../../cross.svg';
 
 export default class About extends Component {
   render() {
     return (
       <section id="about" className="l-section l-section--about">
-        <div className="l-container flex">
+        <div className="l-container l-container--about flex">
           <article className="article">
             <h2 className="heading heading--alt">About</h2>
-            <div className="copy copy--alt">
+            <div className="copy copy--alt copy--frontend">
               <p>
                 I’ve been developing websites professionally for nearly ten years.
                 I love what I do and I have been lucky to work on a variety of projects,
@@ -20,6 +21,10 @@ export default class About extends Component {
               </p>
             </div>
           </article>
+          <div
+            className="wrapper wrapper--frontend-cross flex flex--centered"
+            dangerouslySetInnerHTML={{ __html: crossSvg }}
+          />
         </div>
       </section>
     );

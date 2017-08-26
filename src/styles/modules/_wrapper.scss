@@ -12,4 +12,12 @@
     right: 0;
     vertical-align: middle;
   }
+
+  &--frontend-cross {
+    flex-grow: 1;
+
+    > svg {
+      flex-basis: percentage(300px / 655px);
+    }
+  }
 }
