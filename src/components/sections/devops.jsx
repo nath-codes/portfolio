@@ -9,9 +9,12 @@ export default class DevOps extends Component {
             <h2 className="heading heading--alt heading--devops">Dev Ops</h2>
             <div className="copy copy--alt copy--devops">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Labore odit quam enim consequatur deleniti animi sunt.
-                Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
+                  I tend to use Vagrant provisioned with Ansible for my local development environment,
+                  although I&#39;ve also used Docker and Docker Compose.
+              </p>
+              <p>
+                I use Travis CI for Continous Integration of my personal projects,
+                but have also had exposure to other tools such as Jenkins and Codeship.
               </p>
             </div>
           </article>
