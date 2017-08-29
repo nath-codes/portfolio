@@ -13,9 +13,12 @@ export default class Backend extends Component {
             <h2 className="heading heading--alt heading--backend">Backend</h2>
             <div className="copy copy--alt">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Labore odit quam enim consequatur deleniti animi sunt.
-                Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
+                I have used many PHP frameworks over the years including Laravel, Zend,
+                even going back to Codeigniter.
+              </p>
+              <p>
+                For CMSs, I’ve built more Wordpress sites then I would care to mention,
+                but I&#39;ve also used Drupal and Expression Engine in previous projects.
               </p>
             </div>
           </article>
