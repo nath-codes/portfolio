@@ -8,7 +8,7 @@ export default class Contact extends Component {
         <div className="l-container flex flex--centered">
           <article className="article article--centered flex flex--column">
             <h2 className="heading">Contact</h2>
-            <div className="copy copy--contact">
+            <div className="copy">
               <p>
                 I&#39;m available for contract work in Bristol,
                 London and the South-West of the UK.
