@@ -6,7 +6,7 @@ export default class Hero extends Component {
     return (
       <section className="l-section l-section--hero">
         <VideoBackground
-          src="https://s3-eu-west-1.amazonaws.com/nath-codes/hero.mp4"
+          src={`${CDN}/video/hero.mp4`}
         />
         <div className="l-container l-container--hero flex flex--column flex--centered">
           <h1 className="heading heading--hero">
