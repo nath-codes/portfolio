@@ -5,7 +5,7 @@ class Project extends Component {
 
   getImageSrcSet() {
     const { srcset } = this.props.project;
-    return srcset.map(src => `${CDN_IMG}/${src.img} ${src.width}w`);
+    return srcset.map(src => `${CDN}/img/${src.img} ${src.width}w`);
   }
 
   render() {
@@ -23,7 +23,7 @@ class Project extends Component {
           </div>
           <div className="overlay overlay--project" />
           <img
-            src={`${CDN_IMG}/${img}`}
+            src={`${CDN}/img/${img}`}
             srcSet={srcset}
             className="project__img"
             alt={`Screenshot of ${title} website`}

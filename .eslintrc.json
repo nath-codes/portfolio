@@ -5,6 +5,6 @@
     "jest": true
   },
   "globals": {
-    "CDN_IMG": true
+    "CDN": true
   }
 }

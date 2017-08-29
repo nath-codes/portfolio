@@ -81,7 +81,7 @@ module.exports = {
       filename: '[name].bundle.js',
     }),
     new webpack.DefinePlugin({
-      CDN_IMG: JSON.stringify('https://s3-eu-west-1.amazonaws.com/cdn.nath.codes/src/img'),
+      CDN: JSON.stringify('https://s3-eu-west-1.amazonaws.com/cdn.nath.codes/src'),
     }),
   ],
   resolve: {
