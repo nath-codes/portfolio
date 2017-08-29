@@ -46,6 +46,7 @@
     color: $white;
     font-family: $header-font;
     font-size: rem(18);
+    font-weight: 800;
     line-height: 1;
 
     @include media($medium) {
