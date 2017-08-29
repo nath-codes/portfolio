@@ -4,6 +4,7 @@
 
   &--hero {
     @extend %full-height;
+    overflow: hidden;
     padding: 0;
   }
 
