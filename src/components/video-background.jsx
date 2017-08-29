@@ -7,22 +7,15 @@ const Video = props => (
     <video
       className="video-background"
       src={props.src}
-      autoPlay={props.autoPlay}
-      loop={props.loop}
       ref={node => node && node.setAttribute('playsinline', '')}
+      autoPlay="true"
+      loop="true"
     />
   </div>
 );
 
 Video.propTypes = {
   src: PropTypes.string.isRequired,
-  autoPlay: PropTypes.bool,
-  loop: PropTypes.bool,
-};
-
-Video.defaultProps = {
-  autoPlay: false,
-  loop: false,
 };
 
 export default Video;
