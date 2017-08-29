@@ -1,6 +1,8 @@
 .article {
   @include media($medium) {
-    flex: 0 0 column('1/2');
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: column('1/2');
   }
 
   &--centered {

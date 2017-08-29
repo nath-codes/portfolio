@@ -1,5 +1,7 @@
 .carousel {
-    flex: 0 1 column('1/2');
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: column('1/2');
     position: relative;
 
     &__slide {
