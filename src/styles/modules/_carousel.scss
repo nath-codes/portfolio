@@ -21,6 +21,7 @@
     }
 
     &__img {
+      height: 100%; /* fix IE11 */
       width: 100%;
     }
 }
