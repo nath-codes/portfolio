@@ -10,9 +10,12 @@ export default class Contact extends Component {
             <h2 className="heading">Contact</h2>
             <div className="copy copy--contact">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Labore odit quam enim consequatur deleniti animi sunt.
-                Voluptatibus eaque dignissimos ex tempora expedita, ab reprehenderit quas!
+                I&#39;m available for contract work in Bristol,
+                London and the South-West of the UK.
+              </p>
+              <p>
+                If you would like to together on a project,
+                click the button below and drop me a message.
               </p>
             </div>
             <a href="mailto:hello@nath.codes" className="link link--contact">hello@nath.codes</a>
