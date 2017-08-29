@@ -17,7 +17,7 @@ const projects = [
       { img: 'gdssummits@2x.jpg', width: 1210 },
     ],
     title: 'GDS Summits',
-    url: 'http://gdsummits.com',
+    url: 'http://gdssummits.com',
   },
   {
     img: 'gdsgroup.jpg',
