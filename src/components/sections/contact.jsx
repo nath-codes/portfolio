@@ -18,7 +18,8 @@ export default class Contact extends Component {
                 click the button below and drop me a message.
               </p>
             </div>
-            <a href="mailto:hello@nath.codes" className="link link--contact">hello@nath.codes</a>
+
+            <a href="mailto:hello@nath.codes" className="button button--contact">Say hello</a>
             <Social />
           </article>
         </div>

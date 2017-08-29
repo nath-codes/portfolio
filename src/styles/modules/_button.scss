@@ -1,17 +1,27 @@
 .button {
   cursor: pointer;
+  border: solid 2px $white;
+  border-radius: 2px;
+  color: $white;
   display: inline-block;
   font-family: $header-font;
+  font-size: 18px;
+  padding: 14px 31px;
 
   &--project {
-    border: solid 2px $white;
-    border-radius: 2px;
-    color: $white;
-    font-size: 18px;
-    opacity: 0;
-    padding: 14px 31px;
-    transition: opacity .20s;
     display: inline-block;
+    opacity: 0;
+    transition: opacity .20s;
     z-index: 3;
+  }
+
+  &--contact {
+    margin: auto;
+
+    &:hover {
+      background: $black;
+      border-color: $black;
+      transition: all .20s;
+    }
   }
 }
