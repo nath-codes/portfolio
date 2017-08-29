@@ -9,11 +9,11 @@ export default class Hero extends Component {
           src="https://s3-eu-west-1.amazonaws.com/nath-codes/hero.mp4"
         />
         <div className="l-container l-container--hero flex flex--column flex--centered">
-          <div className="heading heading--hero">
+          <h1 className="heading heading--hero">
             Hi, I&#39;m Nathan.<br />
             I&#39;m a web developer <br />
             from Bristol.
-          </div>
+          </h1>
         </div>
       </section>
     );
