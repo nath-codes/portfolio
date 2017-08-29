@@ -24,7 +24,7 @@
     color: $white;
     margin-bottom: 0;
     text-align: left;
-
+    white-space: normal;
     @include media($medium) {
       line-height: 91px;
     }
