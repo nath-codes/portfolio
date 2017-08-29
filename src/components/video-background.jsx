@@ -7,9 +7,12 @@ const Video = props => (
     <video
       className="video-background"
       src={props.src}
-      ref={node => node && node.setAttribute('playsinline', '')}
       autoPlay="true"
       loop="true"
+      ref={(node) => {
+        node.setAttribute('playsinline', '');
+        node.setAttribute('muted', '');
+      }}
     />
   </div>
 );
