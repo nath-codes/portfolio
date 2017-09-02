@@ -23,7 +23,7 @@
     "webpack": "^3.3.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.babel.js",
+    "start": "webpack-dev-server --open --config webpack.dev.babel.js",
     "build:production": "webpack -p --config webpack.prod.babel.js",
     "test": "jest"
   },
