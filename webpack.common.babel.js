@@ -75,9 +75,6 @@ module.exports = {
       minChunks: Infinity,
       filename: '[name].bundle.js',
     }),
-    new webpack.DefinePlugin({
-      CDN: JSON.stringify('https://s3-eu-west-1.amazonaws.com/cdn.nath.codes/src'),
-    }),
   ],
   resolve: {
     extensions: ['.js', '.jsx'],
